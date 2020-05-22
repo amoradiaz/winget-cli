@@ -264,9 +264,9 @@ jobs:
       ArtifactName: 'WinGetUtil.pdb'
       publishLocation: 'Container'
   
-  - task: ComponentGovernanceComponentDetection@0
-    displayName: Component Governance
-    inputs:
-      scanType: 'Register'
-      verbosity: 'Verbose'
-      alertWarningLevel: 'High'
+  # - task: ComponentGovernanceComponentDetection@0
+  #   displayName: Component Governance
+  #   inputs:
+  #     scanType: 'Register'
+  #     verbosity: 'Verbose'
+  #     alertWarningLevel: 'High'
